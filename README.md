@@ -8,7 +8,7 @@ A simple lightweight Javascript library (<i>less than 2KB</i>) for <b>two-way da
 Bridge allows you to <b>synchronize</b> your DOM with your model. <br>
 Any data-related changes affecting the model are <i>immediately propagated</i> to your DOM and vice versa.
 ```html
-<input type="text" data-bind="name">    <!-- type "John" -->
+<input type="text" data-bind="name">    <!-- if you type "John" -->
 Hi, <span data-bind="name"></span>      <!-- Hi, John -->
 ```
 ### Model
