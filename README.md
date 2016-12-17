@@ -12,7 +12,7 @@ Any data-related changes affecting the model are <i>immediately propagated</i> t
 Hi, <span data-bind="name"></span>      <!-- Hi, John -->
 ```
 ### Model
-You can access to the model through the object ```Bridge```:
+You can access to the model through the object ```Bridge```(or ```$``` shortcut, if it's available):
 <br><b>Get</b>
 ```js
 Bridge.name   // John
